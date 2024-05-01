@@ -13,3 +13,16 @@ audio_recording*
 
 # 주의 사항
 API KEY는 private 하게 사용할 것
+
+
+# 참고 사항
+### OpenAI RateLimitError 발생 시
+이전에 혹시 API Key를 한 번이라도 사용하는 계정으로 발급받은 적이 있다면 
+Free trial 불가능, 5$ 결제하고 사용하도록 하자
+gpt-3.5-turbo 사용시 꽤나 써도 크레딧 소모를 많이 하지 않는 편
+다른 버전은 공식 문서의 Billing 참고<br>
+
+### Chatbot.Speak() 부분 
+파일이 늘어나지 않는 것 같음 
+그래서 그냥 정말 대충 index 하나 더 올려주는 코드 작성
+칸이 좀 늘어났다면 지워주자
